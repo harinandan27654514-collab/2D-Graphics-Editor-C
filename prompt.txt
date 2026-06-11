@@ -1,0 +1,41 @@
+Problem Statement:
+Develop a menu-driven 2D Graphics Editor in C that allows users to create and manipulate basic geometric shapes on a text-based canvas. The program should provide an interactive interface where users can draw shapes, display the canvas, and delete selected areas.
+
+Objectives:
+
+Create a virtual drawing canvas using a 2D character array.
+Implement drawing operations for basic geometric shapes.
+Allow users to interact with the canvas through a menu-driven interface.
+Demonstrate the use of arrays, functions, loops, and conditional statements in C.
+
+Features:
+
+Draw Rectangle
+Draw Line
+Draw Triangle
+Draw Circle
+Delete Area
+Display Canvas
+Exit Program
+
+Functional Requirements:
+
+Initialize a canvas of size 20 × 40.
+Draw rectangles using user-specified position, width, and height.
+Draw lines between two points.
+Draw triangles using a specified starting point and height.
+Draw circles using a center point and radius.
+Delete a selected rectangular area from the canvas.
+Display the updated canvas after drawing or deleting operations.
+Handle invalid menu choices gracefully.
+
+Technologies Used:
+
+Programming Language: C
+Libraries:
+stdio.h
+stdlib.h
+math.h
+
+Expected Outcome:
+The application should provide a simple text-based graphics environment where users can draw and edit geometric shapes on a console canvas. This project demonstrates fundamental concepts of computer graphics and C programming.
